@@ -1,0 +1,26 @@
+.linkContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    cursor: pointer;
+  }
+
+  p {
+    margin: 0 0 0 10px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1100px) {
+  p {
+    display: none;
+  }
+}

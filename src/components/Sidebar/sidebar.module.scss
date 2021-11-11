@@ -1,0 +1,12 @@
+.sidebarContainer {
+  background: linear-gradient(0deg, #35CCD7 0%, #1882A4 100%);
+  height: calc(100vh - 90px);
+  width: 300px;
+  padding: 50px 10px;
+}
+
+@media (max-width: 1100px) {
+  .sidebarContainer {
+    width: 50px;
+  }
+}
